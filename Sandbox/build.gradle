@@ -1,3 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "MyFirstProgram"
+
+repositories {
+}
+
+dependencies {
+    compile 'org.testng:testng:6.9.13.6'
+}
